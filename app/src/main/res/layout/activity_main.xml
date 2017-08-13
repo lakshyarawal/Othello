@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lakshya.othello.MainActivity"
+    android:id="@+id/mainLayout"
+    android:orientation="vertical"
+    android:background="@color/colorBlack">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="20dp">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:textSize="38sp"
+        android:text="BLACK -"
+        android:background="@color/colorRed" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:text="0"
+        android:background="@color/colorRed"
+        android:textSize="42sp"
+        android:id="@+id/blackCount"
+        android:layout_marginRight="5dp"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:textSize="38sp"
+        android:text="WHITE -"
+        android:background="@color/colorPurple"
+        android:textColor="@color/colorWhite"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:text="0"
+        android:background="@color/colorPurple"
+        android:textSize="42sp"
+        android:id="@+id/whiteCount"
+        android:textColor="@color/colorWhite"/>
+
+</LinearLayout>
+
+</LinearLayout>
